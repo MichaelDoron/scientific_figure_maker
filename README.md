@@ -8,7 +8,7 @@ Dependencies:
 * pandas (https://pandas.pydata.org/)
 * seaborn (https://seaborn.pydata.org/)
 * jpglitch (https://github.com/Kareeeeem/jpglitch)
-* Imagemahick (https://www.imagemagick.org/)
+* Imagemagick (https://www.imagemagick.org/)
 
 Feel free to use, distribute, suggest changes, and enjoy
 
