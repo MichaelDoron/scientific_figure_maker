@@ -15,7 +15,7 @@ data_points_per_variable = 100 # number of data points per cluster
 states_in_movie = 4 # the number of different randomly generated positions for the clusters
 steps_between_states = 10 # the resolution of steps between each position
 palette = sns.diverging_palette(255, 133, l=60, n=num_of_clusters, center="dark") # the color palette used
-names = ['Cats','Dogs','Tentackls','Eyes','Elder Gods'] # A custom list of names for the vars and clusters
+names = ['Cats','Dogs','Tentacles','Eyes','Elder Gods'] # A custom list of names for the vars and clusters
 
 ### randomly choosing names for variables
 var_names = np.random.choice(names, num_of_variables, replace=False)
