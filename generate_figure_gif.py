@@ -104,7 +104,7 @@ first_data = original_data.copy()
 ### transitioning between the previous state and the new one (with a step resolution of steps_between_states)
 frame_ind = 0
 for state in range(states_in_movie):
-  # First we set the position at the end of the state, to which the clusters with transition
+  # First we set the position at the end of the state, to which the clusters will transition
   last_data = generate_data(num_of_variables, num_of_clusters, data_points_per_variable, var_names, cluster_names)
   first_data, frame_ind = create_state(first_data, last_data, var_names, steps_between_states, palette, frame_ind)
 
