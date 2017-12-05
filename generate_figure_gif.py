@@ -4,8 +4,11 @@ import os
 import string
 import time
 import numpy as np
+import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+
+plt.ioff()
 
 #### general parameters
 
